@@ -1,0 +1,12 @@
+tasks:
+  - init: |
+      pip install --upgrade pip wheel setuptools
+      pip install --user pipenv
+      pipenv install
+      pipenv shell
+  - command: |
+      pipenv shell
+  
+vscode:
+  extensions:
+    - ms-python.python

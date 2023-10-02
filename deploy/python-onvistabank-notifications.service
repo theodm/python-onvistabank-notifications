@@ -1,0 +1,11 @@
+[Unit]
+Description=python-onvistabank-notifications
+
+[Service]
+Type=simple
+User=pi
+ExecStart=/home/pi/python-onvistabank-notifications/deploy/start.sh
+WorkingDirectory=/home/pi/python-onvistabank-notifications
+
+[Install]
+WantedBy=multi-user.target

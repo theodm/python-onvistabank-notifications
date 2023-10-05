@@ -85,6 +85,8 @@ Die hier implementierten Domänen und Services sind:
     - checkOtp
  - Bank_Account
     - getAccountsList
+ - Trading_Position
+    - getPositions
 
 Weitere Informationen sind der OnVistaApi.py und OnVistaLowLevelApi.py zu entnehmen.
 
